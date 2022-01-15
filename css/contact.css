@@ -1,0 +1,26 @@
+.contact-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    position: relative;
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url('../img/11.svg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.3;
+    border-radius: 7px;
+    z-index: -1;
+}
+
+.contact-content h2{
+    margin: 20px;
+}
+
+.contact-form{
+    margin-left: 50px;
+}
